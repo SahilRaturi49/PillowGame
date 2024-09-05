@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="#D34D2B"> <!-- Background color matching the image -->
+
+<!-- Counter at the top -->
+<TextView
+    android:id="@+id/counter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="00:00"
+    android:textSize="36sp"
+    android:textColor="#FFFFFF" />
+
+<!-- Start/Stop button -->
+<Button
+    android:id="@+id/startStopButton"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:text="START"
+    android:backgroundTint="#082c62"
+    android:textColor="#FFFFFF"
+    android:textSize="28sp"
+    android:layout_marginTop="250dp" />
+
+
+</LinearLayout>
